@@ -20,6 +20,10 @@ filterwarnings('ignore')
 
 import nltk
 nltk.download('stopwords', quiet=True)
+
+import nltk
+nltk.download('wordnet', quiet=True)
+nltk.download('omw-1.4', quiet=True)
 # In[2]:
 
 
