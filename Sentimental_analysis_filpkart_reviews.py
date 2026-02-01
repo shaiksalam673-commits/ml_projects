@@ -7,7 +7,7 @@
 # importing all libraries
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import textblob, string, re
 import nltk
 from nltk.corpus import stopwords
@@ -56,12 +56,12 @@ print("percentage of missing values\n",round(df.isna().sum()/len(df)*100,2))
 # In[7]:
 
 
-df['Reviewer Name'].fillna('Anonymous',inplace = True)
-df['Review Title'].fillna('No Title',inplace = True)
-df['Place of Review'].fillna(df['Place of Review'].mode()[0],inplace = True)
-df['Up Votes'].fillna(0,inplace = True)
-df['Down Votes'].fillna(0,inplace = True)
-df['Month'].fillna(df['Month'].mode()[0],inplace = True)
+# df['Reviewer Name'].fillna('Anonymous',inplace = True)
+# df['Review Title'].fillna('No Title',inplace = True)
+# df['Place of Review'].fillna(df['Place of Review'].mode()[0],inplace = True)
+# df['Up Votes'].fillna(0,inplace = True)
+# df['Down Votes'].fillna(0,inplace = True)
+# df['Month'].fillna(df['Month'].mode()[0],inplace = True)
 df['Review text'].fillna('No Review',inplace = True)
 
 
