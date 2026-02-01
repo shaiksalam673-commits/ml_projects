@@ -18,7 +18,8 @@ from textblob import Word,TextBlob
 from warnings import filterwarnings
 filterwarnings('ignore')
 
-
+import nltk
+nltk.download('stopwords', quiet=True)
 # In[2]:
 
 
