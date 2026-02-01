@@ -4,4 +4,6 @@ imblearn
 joblib
 pandas
 numpy
-
+pandas
+nltk
+textblob
